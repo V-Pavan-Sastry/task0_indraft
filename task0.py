@@ -1,4 +1,4 @@
-######### swap two numbers without third variable ######
+mi######### swap two numbers without third variable ######
 
 print("\n ########### swap two numbers without third variable ######\n")
 num1=10
@@ -53,4 +53,23 @@ s2="Python"
 print("Strings that are reversed")
 print(f"s1: {str(s1)}  ===> s1 after reversing: {reverse_str(s1)}")
 print(f"s2: {str(s2)}  ===> s2 after reversing :{reverse_str(s2)}")
+
+########## count vowels and consonants in a string ####### 
+print("\n ###########  count vowels and consonants in a string ######\n")
+def count_vowels_and_consonants(str1:str):
+    vowels=0
+    consonants=0
+    for i in str1:
+        if i in ['a','e','i','o','u']:
+            vowels+=1
+        else:
+            consonants+=1
+    return vowels , consonants
+s1="Hello"
+s2="Python"
+s1_vowels,s1_consonants=count_vowels_and_consonants(s1)
+s2_vowels,s2_consonants=count_vowels_and_consonants(s2)
+print("Strings that are reversed")
+print(f"s1: {str(s1)}  ===> no of vowels : {s1_vowels} and consonants: {s1_consonants}")
+print(f"s2: {str(s2)}  ===> no of vowels : {s2_vowels} and consonants: {s2_consonants}")
 
