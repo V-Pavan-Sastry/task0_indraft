@@ -87,4 +87,11 @@ print("Strings that are checked for palindrome ")
 print(f"s1: {str(s1)}  is {check_palindrome(s1)}")
 print(f"s2: {str(s2)}  is {check_palindrome(s2)}")
 
+##########  largest and smallest number in a list .####### 
+print("\n ###########   largest and smallest number in a list.. ######\n")
+
+lst1=[12,34,53,67,4,105,57]
+lst2=[1,2,9,45,67,4,5]
+print(f"list : {lst1} ==> largest:{max(lst1)} smallest: {min(lst1)}")
+print(f"list : {lst2} ==> largest:{max(lst2)} smallest: {min(lst2)}")
 
