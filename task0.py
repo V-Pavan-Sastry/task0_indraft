@@ -95,3 +95,14 @@ lst2=[1,2,9,45,67,4,5]
 print(f"list : {lst1} ==> largest:{max(lst1)} smallest: {min(lst1)}")
 print(f"list : {lst2} ==> largest:{max(lst2)} smallest: {min(lst2)}")
 
+##########  remove duplicates from a list.####### 
+print("\n ########### remove duplicates from a list.. ######\n")
+def remove_duplicates(lst:list):
+    set1=set(lst)
+    lst=[i for i in set1]
+    return lst
+lst1=[12,34,53,67,4,105,57,4,105]
+lst2=[1,2,9,45,67,4,5,2]
+print(f"list with duplicates : {lst1} ==> without duplicates:{remove_duplicates(lst1)}")
+print(f"list with duplicates : {lst2} ==> without duplicates:{remove_duplicates(lst2)}")
+
