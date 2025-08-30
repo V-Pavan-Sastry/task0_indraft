@@ -29,3 +29,16 @@ print("Numbers considered for test")
 print(f"Num 1: {num1} is {is_even_or_odd(num1)}")
 print(f"Num 2: {num2} is {is_even_or_odd(num2)}")
 
+######## factorial of a number.######
+
+print("\n ########### factorial of a number ######\n")
+def fact(num):
+    fact=1
+    for i in range(1,num+1):
+        fact=fact*i
+    return fact
+num1=7
+num2=4
+print("Numbers whose factorial is found")
+print(f"Factorial of Num 1: {num1} is {fact(num1)}")
+print(f"Factorial of Num 2: {num2} is {fact(num2)}")
