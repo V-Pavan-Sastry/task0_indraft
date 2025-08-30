@@ -1,0 +1,188 @@
+Q) What is the result?
+x = {1, 2, 3}
+y = {3, 4, 5}
+print(x & y)
+A) {3} union operation
+
+Q) what is the output of the following code
+s = "hello"
+print(s.replace("h", "H"))
+print(s)
+
+A) “Hello”
+“hello”
+
+Q) a = (1, 2, [3, 4])
+a[2].append(5)
+print(a) . What is the output of the code
+
+A) (1,2,[3,4.5])
+
+Q) What will this print?
+x = (i*i for i in range(3))
+print(next(x), next(x))
+
+A) 0 1
+
+Q) What will happen?
+def f(a, b, c=5, d=10):
+    print(a, b, c, d)
+f(1,2)
+
+A)  1 2 5 10
+
+Q) What does this print?
+x = "123"
+print(sum(int(i) for i in x))
+
+A) 6
+
+Q) What is the output?
+x = [1, 2, 3]
+print(x[3:])
+
+A) []
+
+Q) What will happen here?
+try:
+    print(10 / 0)
+except ZeroDivisionError:
+   print(“error”)
+
+A) error
+
+Q) What is the output of:
+print(type((1)))
+print(type((1,)))
+
+A) <class 'int'>
+<class 'tuple'>
+
+Q) What will be the output?
+x = [1, 2, 3]
+print(x * 2)
+
+A)  [1,2,3,1,2,3]
+
+Q) What will this print?
+a = "Python"
+print(a[::-1])
+
+A) nohtyP
+
+Q) What will be the output?
+x = [10, 20, 30]
+y = x
+y.append(40)
+print(x)
+A) [10, 20, 30, 40]
+
+Q) What will this print?
+print(bool("False"))
+
+A) True
+
+Q) What will be the output?
+print(5 == 5.0)
+
+A) True
+
+Q) What will happen here?
+x = {1, 2, 3}
+x.add(2)
+print(x)
+
+A) {1,2,3} # sets store only unique elements
+
+Q) What does id() function do?
+A) gets memory address of a variable
+
+Q) What is the default return value of a function without return statement?
+A) None
+
+Q) Which module is used for regular expressions in Python?
+A) re
+
+Q) What will this print?
+x = "python"
+print(x*0)
+A) “” # null string 
+
+Q) What will happen here?
+d = {"a": 1, "b": 2}
+print(d.get("c", 5))
+A) 5
+
+Q) What will this code print?
+def func(x, y=[]):
+    y.append(x)
+    return y
+A) question incomplete 
+
+Q) What is the output?
+nums = [i for i in range(5) if i % 2 == 0]
+print(nums)
+A)  [0,2,4]
+
+Q) What is the output of print(bool(""))?
+A) False
+
+Q) What is the output of print(type([]))?
+A) <class 'list'>
+
+Q) Which of the following is immutable in Python?
+A) tuple and string are immutable 
+
+Coding Assignments 
+
+Q) Write a program to swap two numbers without using a third variable.
+
+
+
+Write a function to check if a number is even or odd.
+
+Write a program to find the factorial of a number.
+
+Write a function to reverse a string.
+
+Write a program to count vowels and consonants in a string.
+
+Write a program to check if a string is a palindrome.
+
+Write a program to print the Fibonacci series up to n terms.
+
+Write a program to find the largest and smallest number in a list.
+
+Write a program to remove duplicates from a list.
+
+Write a program to sort a list without using built-in sort().
+
+Write a program to count the frequency of each element in a list.
+
+Write a program to merge two dictionaries.
+
+Write a function to find the second largest number in a list.
+
+Write a function that accepts **kwargs and returns the sum of values.
+
+Write a program to find the common elements between two lists.
+
+Write a program to find all prime numbers in a given range.
+
+Write a program to check if two strings are anagrams.
+
+Write a program to implement a simple calculator (using +, -, *, /).
+
+Write a program to read command-line arguments using sys.argv.
+
+Write a program to count the number of words in a text file.
+
+Write a program to implement binary search.
+
+Write a program to implement bubble sort.
+
+Write a program to rotate a list by k positions.
+
+Write a program to generate a dictionary where keys are numbers (1–10) and values are their squares.
+
+Write a program to find the longest word in a given sentence.
