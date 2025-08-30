@@ -1,4 +1,4 @@
-mi######### swap two numbers without third variable ######
+######### swap two numbers without third variable ######
 
 print("\n ########### swap two numbers without third variable ######\n")
 num1=10
@@ -72,4 +72,19 @@ s2_vowels,s2_consonants=count_vowels_and_consonants(s2)
 print("Strings that are reversed")
 print(f"s1: {str(s1)}  ===> no of vowels : {s1_vowels} and consonants: {s1_consonants}")
 print(f"s2: {str(s2)}  ===> no of vowels : {s2_vowels} and consonants: {s2_consonants}")
+
+##########  check if a string is a palindrome.####### 
+print("\n ###########   check if a string is a palindrome. ######\n")
+def check_palindrome(str1:str):
+    s=str1.upper() #covert all chars to uppercase
+    if s==s[::-1]:
+        return "a palindrome"
+    else:
+        return "not a palindrome"
+s1="Hello"
+s2="Racecar"
+print("Strings that are checked for palindrome ")
+print(f"s1: {str(s1)}  is {check_palindrome(s1)}")
+print(f"s2: {str(s2)}  is {check_palindrome(s2)}")
+
 
