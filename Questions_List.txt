@@ -1,0 +1,51 @@
+Programs
+
+Q1)Write a program to swap two numbers without using a third variable.
+
+Q2) Write a function to check if a number is even or odd.
+
+Q3)Write a program to find the factorial of a number.
+
+Q4)Write a function to reverse a string.
+
+Q5)Write a program to count vowels and consonants in a string.
+
+Q6) Write a program to check if a string is a palindrome.
+
+Q7) Write a program to print the Fibonacci series up to n terms.
+
+Q8) Write a program to find the largest and smallest number in a list.
+
+Q9) Write a program to remove duplicates from a list.
+
+Q10) Write a program to sort a list without using built-in sort().
+
+Q11) Write a program to count the frequency of each element in a list.
+
+Q12) Write a program to merge two dictionaries.
+
+Q13) Write a function to find the second largest number in a list.
+
+Q14)Write a function that accepts **kwargs and returns the sum of values.
+
+Q15) Write a program to find the common elements between two lists.
+
+Q16) Write a program to find all prime numbers in a given range.
+
+Q17) Write a program to check if two strings are anagrams.
+
+Q18) Write a program to implement a simple calculator (using +, -, *, /).
+
+Q19) Write a program to read command-line arguments using sys.argv.
+
+Q20) Write a program to count the number of words in a text file.
+
+Q21) Write a program to implement binary search.
+
+Q22) Write a program to implement bubble sort.
+
+Q23) Write a program to rotate a list by k positions.
+
+Q24) Write a program to generate a dictionary where keys are numbers (1–10) and values are their squares.
+
+Q25) Write a program to find the longest word in a given sentence.
