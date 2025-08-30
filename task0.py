@@ -42,3 +42,15 @@ num2=4
 print("Numbers whose factorial is found")
 print(f"Factorial of Num 1: {num1} is {fact(num1)}")
 print(f"Factorial of Num 2: {num2} is {fact(num2)}")
+
+########## reverse a string ####### 
+print("\n ########### reverse a string ######\n")
+def reverse_str(str1:str):
+    str2=str1[::-1]
+    return str2
+s1="Hello"
+s2="Python"
+print("Strings that are reversed")
+print(f"s1: {str(s1)}  ===> s1 after reversing: {reverse_str(s1)}")
+print(f"s2: {str(s2)}  ===> s2 after reversing :{reverse_str(s2)}")
+
